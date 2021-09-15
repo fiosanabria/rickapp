@@ -1,5 +1,19 @@
+ 
+import Encabezado from "./componet/Encabezado";
+import SeccionPrincipal from "./componet/SeccionPrincipal";
+import PieDePagina from "./componet/PieDePagina";
+
+
 const App = () => {
-  return <h1>Hello!!!!</h1>;
+  return (
+    <>
+    <Encabezado />
+    <SeccionPrincipal />
+    <PieDePagina />
+    </>
+  )
+
 };
+
 
 export default App;
