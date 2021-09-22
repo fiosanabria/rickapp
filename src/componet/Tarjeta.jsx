@@ -4,7 +4,7 @@ const Tarjeta = () => {
     return (
         <div className="Tarjeta">
             <div className="ImagenTarjeta">
-                <img src="" alt="" />
+            <img src="https://rickandmortyapi.com/api/character/avatar/72.jpeg" alt="Cool Rick" />
             </div>
             <div className="DescripcionTarjeta">
                 <h4> <a href="">Nombre de tarjeta</a></h4>
